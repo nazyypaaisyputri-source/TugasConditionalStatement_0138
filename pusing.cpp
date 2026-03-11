@@ -25,5 +25,8 @@ int main() {
     cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
     masukanData(berat, tinggi);
     hasilBMI = hitungBMI(berat, tinggi);
+    cout << "\n--- Hasil ---" << endl;
+    cout << "BMI Anda : " << hasilBMI << endl;
+    cout << "Status   : " << cekKondisi(hasilBMI) << endl;
     return 0;
 }
