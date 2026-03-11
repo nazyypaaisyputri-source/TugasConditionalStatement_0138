@@ -9,6 +9,10 @@ void masukanData(float &berat, float &tinggi) {
     cin >> tinggi;
 }
 
+float hitungBMI(float berat, float tinggi) {
+    return berat / (tinggi * tinggi);
+}
+
 int main() {
     return 0;
 }
