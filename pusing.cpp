@@ -24,5 +24,6 @@ int main() {
     float berat, tinggi, hasilBMI;
     cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
     masukanData(berat, tinggi);
+    hasilBMI = hitungBMI(berat, tinggi);
     return 0;
 }
